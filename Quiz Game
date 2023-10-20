@@ -1,0 +1,57 @@
+x = input("enter your name:")
+
+print("Heyy," + x)
+print("Welcome to the quiz game!")
+print("Let's startt")
+s = 0
+print("1.What are the pillars of OOP?")
+options = ["1.Polymorphism", "2.Inheritance ", "3.Encapsulation ", "4.All of these"]
+print(options)
+m = input("=")
+if(options[3]==m):
+  print("Yayy!you got it correct!")
+  s += 4
+else:
+  print("Oops!you got it wrong")
+
+print("2.Which language was originally developed by James Gosling?")
+options = ["1.C","2.Java","3.SQL","4.None of these"]
+print(options)
+r = input("=")
+if(options[1]==r):
+  print("Yayy!you got it correct!")
+  s += 4
+else:
+  print("Oops!you got it wrong")
+
+print("3.--are used to store multiple items in a single variable")
+options = ["1.Set","2.List","3.Dictionary","4.Tuple"]
+print(options)
+t = input("=")
+if(options[3]==t):
+  print("Yayy!you got it correct!")
+  s += 4
+else:
+  print("Oops!you got it wrong")
+
+print("4.Which of the following is non linear data structure?")
+options = ["1.Stack","2.Graph","3.Queue","4.Array"]
+print(options)
+u = input("=")
+if(options[1]==u):
+  print("Yayy!you got it correct!")
+  s += 4
+else:
+  print("Oops!you got it wrong")
+
+print("5.What are the two types of supervised learning?")
+options = ["1.Classification","2.Regression","3.Both of these","4.None of these"]
+print(options)
+v = input("=")
+if(options[2]==v):
+  print("Yayy!you got it correct!")
+  s += 4
+else:
+  print("Oops!you got it wrong")
+print("Total score:", s)
+
