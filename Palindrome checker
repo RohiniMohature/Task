@@ -1,0 +1,14 @@
+#for numbers
+num = int(input("enter any number:"))
+reverse = int(str(num)[::-1])
+if num == reverse:
+  print("number entered is palindrome")
+else:
+  print("number entered is not palindrome")
+
+#for letters
+string = input("enter any letter:")
+if(string==string[::-1]):
+  print("It is palindrome")
+else:
+  print("It is not palindrome")
